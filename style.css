@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#m1 {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(beans.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#r1 {
+    height: 95%;
+    width: 35%;
+    background-color: rgb(230, 183, 125);
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+img {
+    height: 50px;
+    width: 50px;
+}
+.line {
+    height: 3px;
+    width: 95%;
+    background-color: brown;
+}
+h3 {
+    font-size: 25px;
+}
+.c1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.c1 ul {
+    list-style: none;
+}
+.c1 ul li {
+    font-size: 18px;
+    margin-top: 4px;
+}
+a {
+    color: black;
+}
